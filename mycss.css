@@ -1,0 +1,312 @@
+.body1 {  
+	  font-family:  sans-serif;  
+	 /*
+	  background-image: url("https://www.wallpapertip.com/wmimgs/64-647021_light-colour-background-hd.jpg"); */
+	}  
+	.head1{
+		height: 30px;
+		width: 60px;
+		
+		text-align: center;
+	}
+	.head2{
+		height: 30px;
+		width: 60px;
+		
+		text-align: center;
+	}
+	.ptwo{
+		font-size: 16px;
+		font-weight: bold;
+		padding-left: 20px;
+	}
+.divdiv{
+		text-align: center;
+		color: #006666;
+		font-family: monospace;
+
+	
+	}
+	.b1 {   
+	       background-color: black;   
+	       width: 70px;  
+	        color: white;   
+	        padding: 10px;   
+	        margin: 9px 8px;   
+	        border: 2px solid green;   
+	        cursor: pointer; 
+	        font-size:  12px; 
+
+	         }   
+	 
+	 .Input1 {   	
+	        width: 30%;   
+	        margin: 9px 8px;  
+	        padding: 12px 18px;   
+	        border: 3px solid green;   
+	        box-sizing: border-box; 
+	        display: block;  
+	    }  
+	    label{
+	    	font-weight: bold;
+	    } 
+     
+	 .login {   
+	        padding: 25px;   
+	       
+	    }   
+	    .b1:hover {   
+	        opacity: 0.8;   
+	    }  
+	    
+	    .ul1{
+	    	margin-top: 20px;
+	    	font-size: 12px;
+	    	padding-bottom: 20px;
+	    	
+	    }
+	    li{
+	    	color: white;
+	    }
+	   .p{
+	   	 position: fixed;
+  		left: 0;
+  		bottom: 0;
+	   	padding-left: 10px;
+	   	 width: 100%;
+	   	font-size: 14px;
+	   	background: #336666;
+	   	color: white;
+
+	   }
+	 
+	 /*FOR TABLE PAGE*/
+	 .body2{
+	 	 background-image: url("https://www.wallpapertip.com/wmimgs/64-647021_light-colour-background-hd.jpg") ; 
+	 }
+		table{
+			margin-top: 30px;
+			margin-bottom: 100px;
+		}
+		table, th, td{
+			 border: 1px solid black;
+  border: 1px solid black;
+  border-collapse: collapse;
+		}
+
+		th, td {
+  padding: 15px;
+}
+th{
+  color: white;
+  background: #007791;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+td{
+  background-color: #E1EBEE;
+  text-align: center;
+  font-size: 18px;
+}
+.hone{
+		text-align: center;
+		color: green;
+		border-radius: 0;
+		
+		
+	}
+	.aone:link, .aone:visited{
+			text-decoration: none;
+		}
+		.bt:hover, .bt:active{
+			background-color: orange;
+}
+
+	/*.headerd{
+		background-color: pink;
+
+	}*/
+
+	.headerd {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+		color: #006666;
+		font-family: monospace;
+}
+.hone {
+  text-align: center;
+}
+.bt {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  background-color: lightblue;
+}
+.aone{
+	font-weight: bold;
+
+}
+.contentd{
+	font-weight: bold;
+	font-size: 30px;
+}
+	
+	.maindiv{
+		
+	
+            background-image: url( 
+"https://media.geeksforgeeks.org/wp-content/uploads/20191212174641/bg1.png"); 
+            min-height: 380px; 
+            background-size: cover; 
+        } 
+
+.puser{
+	font-family: arial;
+	padding-left: 20px;
+}
+
+
+/*//medium*/
+
+	@media (min-width: 950px) and (max-width: 1199px)
+	{
+	.b1 {   
+	       background-color: black;   
+	       width: 70px;  
+	        color: white;   
+	        padding: 10px;   
+	        margin: 9px 8px;   
+	        border: 2px solid green;   
+	        cursor: pointer; 
+	        font-size:  12px; 
+
+	         }   
+	 
+	 .Input1 {   	
+	        width: 50%;   
+	        margin: 9px 8px;  
+	        padding: 12px 18px;   
+	        border: 3px solid green;   
+	        box-sizing: border-box; 
+	        display: block;  
+	    }  
+	   }
+
+
+/*small*/
+
+
+@media(min-width: 769px) and (max-width: 949.9px)
+{
+.divdiv{
+		text-align: left;
+		color: green;
+
+	}
+	.b1 {   
+	       background-color: black;   
+	       width: 70px;  
+	        color: white;   
+	        padding: 10px;   
+	        margin: 9px 8px;   
+	        border: 2px solid green;   
+	        cursor: pointer; 
+	        font-size:  12px; 
+
+	         }   
+	 
+	 .Input1 {   	
+	        width: 80%;   
+	        margin: 9px 8px;  
+	        padding: 12px 18px;   
+	        border: 3px solid green;   
+	        box-sizing: border-box; 
+	        display: block;  
+	    }  
+	  }
+/*extra small*/
+
+@media(max-width: 768px) and (min-width: 1px)
+{
+	.ptwo{
+		font-size: 10px;
+		font-weight: bold;
+	}
+		
+.divdiv{
+		text-align: left;
+		color: green;
+
+	}
+	.b1 {   
+	       background-color: black;   
+	       width: 70px;  
+	        color: white;   
+	        padding: 10px;   
+	        margin: 9px 8px;   
+	        border: 2px solid green;   
+	        cursor: pointer; 
+	        font-size:  12px; 
+
+	         }   
+	 
+	 .Input1 {   	
+	        width: 100%;   
+	        margin: 9px 8px;  
+	        padding: 12px 18px;   
+	        border: 3px solid green;   
+	        box-sizing: border-box; 
+	        display: block;  
+}
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid black; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid black; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		
+		position: absolute;
+		
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(1):before { content: "SNO"; }
+	td:nth-of-type(2):before { content: "ActionItems"; }
+	td:nth-of-type(3):before { content: "TargetDate"; }
+	td:nth-of-type(4):before { content: "Action"; }
+	td:nth-of-type(5):before { content: "Image"; }
+
+	.bt {
+  position: absolute;
+  right: 0;
+  height: 20px;
+  background-color: lightblue;
+	
+}
+
+	   }
+	
+
+	
